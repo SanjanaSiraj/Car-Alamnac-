@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ViewerHomeController">
+   <children>
+      <ImageView fitHeight="105.0" fitWidth="83.0" layoutX="127.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@mascot.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="210.0" layoutY="29.0" text="Welcome!">
+         <font>
+            <Font name="Jokerman" size="48.0" />
+         </font>
+      </Label>
+      <Button fx:id="viewCarsButton" layoutX="48.0" layoutY="105.0" mnemonicParsing="false" onAction="#viewAllCars" prefHeight="50.0" prefWidth="505.0" style="-fx-background-color: #14ff00; -fx-font-size: 20; -fx-font-family: Jokerman;" text="VIEW ALL CARS" textFill="WHITE" />
+      <Button fx:id="searchByRegButton" layoutX="48.0" layoutY="155.0" mnemonicParsing="false" onAction="#searchByReg" prefHeight="50.0" prefWidth="505.0" style="-fx-background-color: #03b500; -fx-font-size: 20; -fx-font-family: Jokerman;" text="SEARCH CAR BY REGISTRATION NUMBER" textFill="WHITE" />
+      <Button fx:id="searchByMakeAndModelButton" layoutX="48.0" layoutY="205.0" mnemonicParsing="false" onAction="#searchByMakeAndModel" prefHeight="50.0" prefWidth="505.0" style="-fx-background-color: #159d09; -fx-font-family: Jokerman; -fx-font-size: 20;" text="SEARCH CAR BY MAKE AND MODEL" textFill="WHITE" />
+      <Button fx:id="buyCarButton" layoutX="48.0" layoutY="255.0" mnemonicParsing="false" onAction="#buyCar" prefHeight="50.0" prefWidth="505.0" style="-fx-background-color: #036b0a; -fx-font-family: Jokerman; -fx-font-size: 20;" text="BUY A CAR" textFill="WHITE" />
+      <Button fx:id="logOutButton" layoutX="48.0" layoutY="305.0" mnemonicParsing="false" onAction="#logOut" prefHeight="50.0" prefWidth="505.0" style="-fx-background-color: black; -fx-font-size: 20; -fx-font-family: Jokerman;" text="LOG OUT" textFill="WHITE" />
+      <ImageView fitHeight="32.0" fitWidth="155.0" layoutX="187.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@output-onlinepngtools%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="113.0" layoutX="219.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@output-onlinepngtools%20(4).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="31.0" layoutX="57.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@output-onlinepngtools%20(5).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="80.0" layoutX="164.0" layoutY="264.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@output-onlinepngtools%20(6).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="53.0" layoutX="81.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@output-onlinepngtools%20(7).png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

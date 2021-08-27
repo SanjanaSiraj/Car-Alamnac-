@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GetMakeAndModelController">
+   <children>
+      <Label layoutX="241.0" layoutY="19.0" style="-fx-font-family: Jokerman; -fx-font-size: 32;" text="Car" textFill="#14ff00" />
+      <Label layoutX="314.0" layoutY="19.0" style="-fx-font-family: Jokerman; -fx-font-size: 32;" text="Almanac!" />
+      <ImageView fitHeight="88.0" fitWidth="147.0" layoutX="87.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@matt-mozgiel-sports-car-doodle.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="BackButton" layoutX="20.0" layoutY="338.0" mnemonicParsing="false" onAction="#ReturnToViewerMenu" prefHeight="25.0" prefWidth="238.0" style="-fx-background-color: black; -fx-font-family: Jokerman; -fx-font-size: 14;" text="&lt;&lt; BACK" textFill="WHITE" />
+      <Button fx:id="LogOutButton" layoutX="342.0" layoutY="338.0" mnemonicParsing="false" onAction="#LogOut" prefHeight="25.0" prefWidth="238.0" style="-fx-background-color: black; -fx-font-family: Jokerman; -fx-font-size: 14;" text="LOG OUT" textFill="WHITE" />
+      <ImageView fitHeight="24.0" fitWidth="52.0" layoutX="400.0" layoutY="342.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@output-onlinepngtools%20(4).png" />
+         </image>
+      </ImageView>
+      <Label layoutX="41.0" layoutY="95.0" text="Enter Car Make:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="143.0" text="Enter Car Model:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="CarMake" layoutX="214.0" layoutY="95.0" />
+      <TextField fx:id="CarModel" layoutX="214.0" layoutY="143.0" />
+      <Button fx:id="ResetButton" layoutX="442.0" layoutY="92.0" mnemonicParsing="false" onAction="#Reset" prefHeight="32.0" prefWidth="90.0" style="-fx-background-color: #14ff00; -fx-font-family: Jokerman; -fx-font-size: 14;" text="Reset" />
+      <Button fx:id="SubmitButton" layoutX="442.0" layoutY="140.0" mnemonicParsing="false" onAction="#Submit" prefHeight="32.0" prefWidth="90.0" style="-fx-background-color: #14ff00; -fx-font-family: Jokerman; -fx-font-size: 14;" text="Submit" />
+      <TableView fx:id="tableView" layoutX="20.0" layoutY="184.0" prefHeight="135.0" prefWidth="560.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,8 @@
+1YX98J,2014,Black,White,,Toyota,RAV4,25000,2
+38000,2012,Blue,Light Green,,Honda,Civic,9200,2
+MARY,2017,Dark Grey,Blue,Red,BMW,116d,55132,2
+ABC132,2007,yellow,,,Toyota,Corolla,5900,3
+f136,2010,black,navy blue,,ferrari,italia,75000,2
+2jzgte,1993,maroon,,,toyota,supra,12300,1
+ej25,1992,black,white,,subaru,impreza,45900,1
+vr38,2009,black,,,nissan,gtr,60000,1
